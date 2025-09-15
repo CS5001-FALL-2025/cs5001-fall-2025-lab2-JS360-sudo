@@ -11,9 +11,15 @@ Store each word of the lyric in a separate variable, then print the entire
 lyric on one single line using print.
 '''
 
-def main():
-    # YOUR CODE HERE
 
+# YOUR CODE HERE
+# Asking a person do you know this song?
 
-if __name__ == '__main__':
-    main()
+print ('What up Homie, lets sing together')
+question = input ('Do you know the song Tribute by Tenacious D?')
+if question == 'yes':
+    print ('Sweet!!! sing with me this verse.')
+    print ('So we played the first thing that came to our heads / just so happened to be, the Best Song in the World!')
+else: 
+    print ('Sorry budy, looks like we cant be friends.')
+

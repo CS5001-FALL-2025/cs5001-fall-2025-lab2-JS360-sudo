@@ -21,7 +21,21 @@ Your alarm will expire at 3.
 '''
 
 def main():
-    # YOUR CODE HERE
+# What time is it and when will the alarm go off?
+
+    time_now = int(input('What time is it homie?'))
+    hours_to_wait = int(input('How much longer until your alarm goes off?'))
+
+# Now we calcuate what time the alarm will go off.
+
+    alarm = (time_now + hours_to_wait) % 24
+    if alarm >= 13: 
+        print (f'Your alarm is going to go off at {alarm}pm?')
+    else:
+        print (f'Your alarm is going to go off at {alarm}am?')
+
 
 if __name__ == '__main__':
     main()
+
+
