@@ -22,7 +22,9 @@ def main():
     y = 10
 
     # Assign values to the variables below to calculate the difference, product, and average of the values in x and y.
-    # the abs() function coverts any negative number into an absolute number. 
+    # the abs() function coverts any negative number into an absolute number.
+    # This was just something extra that I learned while I was playing around with this. 
+     
     differnce = [abs(x - y)]
     product = (x * y)
     average = ((x * y) / 2)
