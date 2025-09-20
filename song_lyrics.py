@@ -18,11 +18,11 @@ lyric on one single line using print.
 print ('What up Homie, lets sing together')
 question = input ('Do you know the song Tribute by Tenacious D?')
 if question == 'yes':
-    print ('Sweet!!! sing with me this verse.')
+    print ('Sweet!!! sing with me.')
 
-    print ('So we played the first thing that came to our heads / just so happened to be, the Best Song in the World!')
+    print ('So we played the first thing that came to our heads!')
 else: 
     print ('Sorry budy, looks like we cant be friends.')
     print ('Go grow your music library.')
 
-# I rremoved the def main command code. I was having issues running this code with that command.
+# I removed the def main command code. I was having issues running this code with that command.
